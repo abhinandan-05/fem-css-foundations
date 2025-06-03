@@ -13,12 +13,24 @@
 }
 
 body {
-  background-color: var(--color-primary);
-  color: var(--color-text-on-primary);
   font-family: var(--font-family);
   /* font-weight: bold; */
   /* font-optical-sizing: auto;
   font-style: normal; */
+}
+
+.body--primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-on-primary);
+}
+
+.body--secondary {
+  background-color: var(--color-text-on-primary);
+  color: var(--color-primary);
+}
+
+.main {
+  padding: 150px;
 }
 
 p {
@@ -47,6 +59,7 @@ a {
 .nav {
   display: inline-block;
   justify-self: end;
+  font-weight: bold;
 }
 
 .nav__list {
